@@ -1,0 +1,17 @@
+/* Modify the css for the app class in App.jsx */
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+/* Modify the css for the app_main in App.jsx */
+.app_main {
+  display: flex;
+  justify-content: space-evenly;  /*property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally) */
+  padding: 20px 8%;
+}
+
+.task_column {
+  width: 33.33%;
+  margin: 20px;
+}
